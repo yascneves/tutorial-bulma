@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Poppins:ital,wght@0,200;0,300;1,500&family=Roboto:wght@300&display=swap');
+
+*{
+  font-family: Poppins; 
+}
+
+.hero-body{
+  background: rgb(173,108,242);
+background: radial-gradient(circle, rgba(173,108,242,1) 0%, rgba(228,138,190,0.9959183673469387) 100%);
+}
+
