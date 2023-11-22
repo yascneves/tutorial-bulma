@@ -1,4 +1,4 @@
-# Tutorial do Bulma CSS Framework
+# Tutorial Bulma
 
 IFSUL de Minas
 
