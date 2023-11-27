@@ -9,3 +9,12 @@
 background: radial-gradient(circle, rgba(173,108,242,1) 0%, rgba(228,138,190,0.9959183673469387) 100%);
 }
 
+span{
+  color: black;
+  font-weight: 600 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
