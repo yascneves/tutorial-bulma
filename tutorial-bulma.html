@@ -77,9 +77,8 @@
         </p>
       </div>
     </section>
-    
 
-    <!-- documentação -->
+    <!-- documentação 1: linkando no html-->
     <div class="tile">
       <div class="tile is-vertical is-8">
         <div class="tile">
@@ -89,39 +88,49 @@
               <p class="content">é um framework de CSS, ou seja, uma ferramenta que facilita a estilização de arquivos HTML através do elemento "class" nas tags HTML.</p>
             </article>
             <article class="tile is-child notification is-warning">
-              <p class="title">1. Linkando no HTML</p>
+              <p class="title">
+                <a href="https://bulma.io/documentation/overview/start/" target="_blank">1. Linkando no HTML</a>
+              </p>
               <figure class="image is-4by3">
                 <img src="img/link-html.png">
             </article>
           </div>
+
+          <!-- documentação 2: usando classes -->
           <div class="tile is-parent">
             <article class="tile is-child notification is-info">
-              <p class="title">2. Usando classes</p>
+              <p class="title">
+                <a href="https://bulma.io/documentation/overview/modifiers/" target="_blank">2. Usando classes</a>
+              </p>
               <p class="subtitle">há classes prontas como "hero", "table", "title".</p>
-              <p class="subtitle">para estilizá-las com cores, responsividade e etc, utilizamos -is e -has</p>
+              <p class="subtitle">para estilizá-las com cores, responsividade e etc, utilizamos <span>-is</span> e <span>-has</span></p>
               <figure class="image is-4by3">
-                <img src="img/link-html.png">
+                <img src="img/bulma-is.png">
               </figure>
+              <p>Esse é um exemplo de como <span>is-x</span> modifica as cores da classe <span>button</span></p>
             </article>
           </div>
         </div>
+
+        <!-- Observação: breakpoints/mobile -->
         <div class="tile is-parent">
           <article class="tile is-child notification is-danger">
-            <p class="title">3.</p>
-            <p class="subtitle">Aligned with the right tile</p>
-            <div class="content">
-              <!-- Content -->
-            </div>
+            <p class="title">Observações</p>
+            <p class="subtitle"> O framework é focado em aplicações mobile (mobile-first).
+          </p>
+          <p>Breakpoints são melhores aproveitados em projetos para celular. Os elementos são melhor visualizados na vertical!</p>
           </article>
         </div>
       </div>
+
+      <!-- documentação 3: responsividade-->
       <div class="tile is-parent">
         <article class="tile is-child notification is-success">
           <div class="content">
-            <p class="title">Tall tile</p>
-            <p class="subtitle">With even more content</p>
+            <p class="title"><a href="https://bulma.io/documentation/overview/responsiveness/" target="_blank">3. Responsividade</a></p>
+            <p class="subtitle">Bulma tem um sistema de <span>breakpoints</span> que modificam o tamanho dos elementos conforme o tamanho da tela</p>
             <div class="content">
-              <!-- Content -->
+              <figure><img src="img/breakpoints.png" alt=""><img src="img/mixins.png" alt=""></figure>  
             </div>
           </div>
         </article>
@@ -159,7 +168,7 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-info">
               <p class="title">2. Usando classes</p>
-              <p class="subtitle">há classes prontas como "hero", "table", "title".</p>
+              <p class="subtitle">há elementos prontos como "hero", "table", "title".</p>
               <p class="subtitle">para estilizá-las com cores, responsividade e etc, utilizamos -is e -has</p>
               <figure class="image is-4by3">
                 <img src="img/link-html.png">
@@ -187,8 +196,7 @@
             </div>
           </div>
         </article>
-      </div>
-      
+      </div>      
     </div>
   </body>
   <!-- script para o navbar-burger funcionar -->
