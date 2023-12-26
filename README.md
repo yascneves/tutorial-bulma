@@ -11,3 +11,5 @@ Tutorial do Bulma - CSS Framework
 Objetivo: esse tutorial foi feito para nos auxiliar a trabalhar com o framework Bulma.
 
 nov/2023
+
+![projeto bulma no navegador](./gif/tela-projeto-bulma.gif)
